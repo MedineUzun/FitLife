@@ -1,0 +1,82 @@
+/* Global.css veya App.css gibi bir dosyada tanımlayabilirsiniz */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    width: 100%;
+    min-height: 100vh; /* Sayfanın tamamını kaplaması için */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    border: none;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Login.css */
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px; /* Aralıkları ayarlayabilirsiniz */
+    margin-left: 0; /* Sayfanın en soluna konumlandırır */
+}
+
+.button-container button {
+    width: 100%; /* Butonların genişliğini 100% olarak ayarlar */
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+
+.btn-purple {
+    background-color: purple;
+    color: white;
+}
+
+.container h1 {
+    margin-top: 0; /* Başlığın üstündeki boşluğu sıfırlar */
+  }
+  

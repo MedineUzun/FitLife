@@ -1,0 +1,35 @@
+.login-container {
+  text-align: center;
+  box-shadow: none;
+  border: none;
+  max-width: 500px;
+  margin: auto;
+
+}
+
+.login-container h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.login-container label
+ {
+  width: 80%;
+ 
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px; /* İstenirse boşluk ekleyebilirsiniz */
+}
+
